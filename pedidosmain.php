@@ -1,9 +1,6 @@
 <?php
 /*
-Plugin Name: NTSS Pedidos Plugin
-Plugin URI: https://www.ntss.com.ar
-Description: Este plugin desarrollado por NTSS SAS a pedido de BIGGER SA para hacer el seguimiento de entrega de pedidos.
-Version: 0.03
+Plugin para hacer el seguimiento de entrega de pedidos.
 */
 
 include_once 'auxiliaryfunctions.php';
