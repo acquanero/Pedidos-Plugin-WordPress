@@ -1,0 +1,179 @@
+/*style.css*/
+
+h1{
+
+    font-size: 50px;
+    font-weight:bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.formBox {
+    margin-top: 5px;
+    padding-top: 50px;
+    padding: 20px;
+    padding-bottom: 280px;
+  }
+
+.btn-validar{
+    padding-left: 10px;
+
+  }
+
+
+  .celdaAlignRight{
+    text-align: right;
+  }
+
+  .celdaAlignCenter{
+    text-align: center;
+  }
+
+  .celdaAlignLeft{
+    text-align: left;
+  }
+
+  .clickableIdPedido{
+    text-align: left;
+    color: rgb(48, 126, 190);
+    text-decoration: underline;
+  }
+
+.clickableIdPedido:hover,
+.clickableIdPedido:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  .containerTabla{
+    margin-top: 10px;
+  }
+
+  .th_my_style{
+    background-color: rgb(207, 211, 211);
+  }
+
+  .my_table_style {
+    border: 1px solid grey;
+  }
+
+  .warningBox{
+    display: block;
+    width:100%;
+    text-align:center;
+    border: 11px solid rgb(215, 215, 35);
+    background-color: rgb(215, 215, 35);
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .dangerBox{
+    display: block;
+    width:100%;
+    text-align:center;
+    border: 11px solid crimson;
+    background-color: crimson;
+    align-items: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .successBox{
+    display: block;
+    width:100%;
+    text-align:center;
+    border: 11px solid rgb(20, 160, 35);
+    background-color: rgb(20, 160, 35);
+    align-items: center;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+
+  .cajaContador{
+    text-align:center;
+    width: 100%;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .numeroContador{
+
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+
+  }
+
+  .colContador{
+    text-align:center;
+    align-items: center;
+
+
+  }
+
+  .buttonExportTable{
+
+    margin-bottom: 10px;
+
+  }
+
+  /* CSS del Pop up que muestra los productos
+
+  /* The Modal (background) */
+.modal{
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.oldmodalstyle {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 50%;
+  top: 50%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
